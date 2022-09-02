@@ -1,0 +1,20 @@
+.card{
+    background-color: red;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px solid red;
+    font-family: Roboto slab;
+    margin-bottom: 15px;
+}
+
+.card .title{
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    background-color: white;
+    color: black;
+    padding: 20px
+}
