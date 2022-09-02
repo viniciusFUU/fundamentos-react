@@ -1,10 +1,14 @@
 .card{
-    background-color: red;
-    border-radius: 10px;
+    border-radius: 5px;
     overflow: hidden;
-    border: 3px solid red;
+    border: 5px solid;
     font-family: Roboto slab;
-    margin-bottom: 15px;
+    margin: 15px;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    max-width: 500px;
 }
 
 .card .title{
@@ -13,7 +17,8 @@
     justify-content: center;
 }
 
-.content{
+.card .content{
+    flex: 1;
     background-color: white;
     color: black;
     padding: 20px
