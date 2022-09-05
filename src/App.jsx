@@ -8,13 +8,18 @@ import Aleatorio from "./components/basicos/Aleatorio"
 import Card from "./components/layout/Card"
 import Familia from "./components/basicos/Familia"
 import FamiliaMembro from "./components/basicos/FamiliaMembro"
-import ListaAlunos from "./components/repetição/ListaAlunos"
+import ListaAlunos from "./components/repeticao/ListaAlunos"
+import ListaProdutos from "./components/repeticao/ListaProdutos"
 
 export default () =>
         <div id="app">
             <h1>Fundamentos do react</h1>
 
             <div className="Cards">
+
+                <Card titulo="#07 Atividade de produtos" color="#FE2E2E">
+                    <ListaProdutos></ListaProdutos>
+                </Card>
 
                 <Card titulo="#06 Lista de Alunos">
                     <ListaAlunos></ListaAlunos>
