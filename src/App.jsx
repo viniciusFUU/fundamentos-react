@@ -16,12 +16,11 @@ export default () =>
             <div className="Cards">
 
                 <Card titulo="#05 Componente com filhos" color="#FF00FF">
-                    <Familia sobrenome="da Silva">
-                        <FamiliaMembro nome="Vinícius" />
+                    <Familia sobrenome="Monteiro">
+                        <FamiliaMembro nome="Vinícius"/>
                         <FamiliaMembro nome="Bianca"/>
-                        <FamiliaMembro nome="Marli"/>
+                        <FamiliaMembro nome="Marli" />
                     </Familia>
-
                 </Card>
 
                 <Card titulo="#04 Desafio Aleatório" color="#080">
