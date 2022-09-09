@@ -24,7 +24,7 @@ export default () => (
 
     <div className="Cards">
 
-      <Card titulo="#13 Desafio Mega sena" color="#04B404">
+      {/* <Card titulo="#13 Desafio Mega sena" color="#04B404">
         <DesafioMegaSena 
         min1={1} max1={10}
         min2={11} max2={20}
@@ -33,7 +33,7 @@ export default () => (
         min5={41} max5={50}
         min6={51} max6={60}
         />
-      </Card>
+      </Card> */}
 
       <Card titulo="#12 Contador" color="#A4A4A4">
         <Contador numeroInicial={10}></Contador>
